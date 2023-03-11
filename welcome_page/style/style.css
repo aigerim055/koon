@@ -9,6 +9,8 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: rgb(243, 225, 225);
+    border-radius: 50px;
 }
 
 .row{
@@ -24,5 +26,53 @@
 }
 
 .box{
-    background-color: aqua;
+    padding: 140px;
+}
+
+.box img{
+    border-radius: 10px;
+    box-shadow: 19px 15px 14px 0px rgba(27, 44, 58, 0.2);
+    /* width: 100%; */
+}
+
+.title{
+    padding: 45px;
+    word-spacing: 5px;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+
+.title h2{
+    padding: 10px;
+    font-family: Shantell Sans;
+    font-weight: 700;
+}
+
+h2:hover{
+    transition: 0.6s;
+    color: firebrick;
+}
+
+p:hover{
+    transition: 0.6s;
+    color: chocolate;
+}
+
+span:hover{
+    transition: 0.6s;
+    color: rgb(233, 13, 97);
+}
+
+
+.title p{
+    padding: 10px;
+    font-family: Shantell Sans;
+    font-weight: 300;
+}
+
+.title span{
+    padding: 10px;
+    font-family: Shantell Sans;
+    font-weight: 400;
 }
