@@ -218,3 +218,17 @@
         background-size: cover;
      }
  }
+
+.search input{
+   padding: 5px 0 5px 5px;
+   border: none;
+}
+
+.input {
+   border: 1px grey solid;
+   padding-right: 5px;
+}
+
+.search input:focus {
+   border: none;
+}
