@@ -10,6 +10,82 @@
     width: 100%;
 
 }
+
+header{
+    padding: 30px 15px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.divider{
+    display: block;
+}
+
+.koon-modal{
+    display: block;  
+}
+
+.join-btn{
+ background: none;
+ color: #000;
+ padding: 10px 25px;
+ border: 2px solid #3b42c4;
+ border-radius: 10px;
+ text-transform: uppercase;
+}
+
+.join-btn:hover{
+background-color: #3b42c4;
+transition: 0.6s;
+color: #fff;
+}
+
+.modal-header{
+border-bottom: none;
+}
+
+.lable-title-email{
+margin-right: 40px;
+}
+
+.lable-title-nicname{
+ margin-right: 165px;
+}
+
+.lable-title-password{
+ margin-right: 90px;
+}
+.label-font {
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+color: #000000;
+}
+
+.modal-footer{
+border-top: none;
+}
+
+.footer-text-wrapper{
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+.font{
+font-family: 'Baloo Bhai 2', cursive;
+}
+
+.lable-title-name{
+ margin-right: 100px;
+}
+
 .carousel{
     width: 100%;
 }
