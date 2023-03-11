@@ -116,7 +116,7 @@
     width: 33.33%;
  }
  .box img{
-    width: 350px;
+    width: 100%;
  }
 
 .more{
@@ -192,7 +192,7 @@
 }
 .search-btn{
    background-color: #fff;
-   color: black;
+   color: #243f93;
    border: 1px solid #243f93;
    overflow: hidden;
    border-radius: 30px;
@@ -210,11 +210,54 @@
    border-radius: 30px;
 }
 .btn2:hover{
-   background-color: #fff;
-   color: black;
+   background-color: #243f93;
+   color: #fff;
    transition: 0.05s;
 }
+.col-3{
+   width: 25%;
+   padding: 0 15px;
+}
 
+.explore{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 15px;
+}
+.explore a{
+   text-decoration: none;
+}
+.explore a:hover{
+   text-decoration: underline;
+}
+.box{
+   width: 100%;
+}
+.wrap-contant{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap:7px;
+}
+.btn-corner{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   border: none;
+   border-radius: 5px;
+   padding: 3px;
+   color: gray;
+}
+.btn-corner:hover{
+   background-color: black;
+   color: #fff;
+   transition: 0.6s;
+}
+.data{
+   color: rgb(105, 80, 47);
+   font-size: 25px;
+   margin: 0;
+}
  @media(max-width:1024px){
     .container{
         max-width: 920px;
