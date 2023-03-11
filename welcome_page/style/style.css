@@ -108,7 +108,7 @@ header{
 }
 
 .checkmate{
-    padding: 60px 0 0;
+    padding: 60px 0 60px 0;
 }
 
 .row{
@@ -193,4 +193,232 @@ header{
 
 .for-padding{
     padding: 90px 0 0;
+}
+
+.section-questions {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EDF2ED;
+}
+
+
+#faq {
+    max-width: 700px;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+section.faq {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#faq ul {
+    text-align: left;
+}
+.transition, p, ul li i:before, ul li i:after {
+    transition: all 0.3s;
+}
+
+
+#faq h3 {
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: #0B090A;
+}
+
+#faq h2 {
+    /*color: #cc071e;*/
+    font-family: 'hm_light', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    padding: 15px 15px 0;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#faq p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.45;
+    /*position: relative;*/
+    overflow: hidden;
+    max-height: 250px;
+    /*will-change: max-height;*/
+    /*contain: layout;*/
+    /*display: inline-block;*/
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 5px;
+    /*margin-bottom: 15px;*/
+    padding: 0 50px 0 15px;
+    transition: .3s opacity, .6s max-height;
+    hyphens: auto;
+    z-index: 2;
+}
+
+#faq ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+}
+
+#faq ul li {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    /*padding-bottom: 4px;*/
+    /*padding-top: 18px;*/
+    background: #fff;
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,0.1);
+    -webkit-tap-highlight-color: transparent;
+}
+
+#faq ul li + li {
+    margin-top: 15px;
+}
+
+#faq ul li:last-of-type {
+    padding-bottom: 0;
+}
+
+#faq ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 28px;
+    right: 15px;
+}
+
+#faq ul li i:before, ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 9px;
+}
+
+#faq ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+}
+
+#faq ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+}
+
+#faq ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+
+#faq ul li input[type=checkbox]:checked ~ h2 {
+    color: #000;
+}
+
+#faq ul li input[type=checkbox]:checked ~ p {
+    /*margin-top: 0;*/
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+    /*transform: translate(0, 50%);*/
+}
+
+#faq ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+
+#faq ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+
+#faq svg {
+    width: 8%;
+    height: 10%;
+}
+
+header select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #3b42c4;
+    background-color: unset;
+}
+
+.section2 h3 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #000000;
+}
+
+/* .section2 img {
+    display: block;
+    margin: 0 auto;
+} */
+
+.section2 {
+    margin-top: 160px;
+}
+
+.section2 h6 {
+    padding: 30px 0 10px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.section2 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: unset;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #525252;
+}
+
+.ins-spacing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-sec2 {
+    padding-left: 80px;
+    max-width: 100%;
+}
+
+.section2 img {
+    width: 300px;
+    height: auto;
+}
+
+.section2 h3 {
+    text-transform: uppercase;
 }
