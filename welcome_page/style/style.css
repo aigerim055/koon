@@ -39,7 +39,7 @@ header{
 	cursor: pointer;
 	color: black;
 	text-transform: uppercase;
-	border-radius: 10px;
+	border-radius: 25px;
 	display: inline-block;
 	overflow: hidden;
 	transition: all 0.5s cubic-bezier(.86, .01, .15, .99);
