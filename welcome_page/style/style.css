@@ -13,7 +13,6 @@ html{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 header{
@@ -91,24 +90,38 @@ header{
     transition: .4s;
 }
 
-.lorem {
-    font-size: 40px;
+
+
+.section-carousel .row {
+    align-items: center;
+}
+
+.lorem p{
+    font-size: 24px;
     font-weight: 500;
-    max-width: 500px;
-    margin-left: 20px;
+    line-height: 28px;
+    
 }
 
 .koon {
     top: 30% !important;
-    margin-left: 20px;
-    padding-bottom: 10px;
-    font-weight: 800;
-    font-size: 70px;
+    padding-left: 20px;
+    
+}
+
+.bold-koon{
+    font-weight: bold;
+}
+
+.point-koon{
+    font-weight: bold;
+    color: red;
 }
 
 .koon h1 {
-    font-weight: 800;
-    font-size: 70px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
 }
 
 .checkmate{
@@ -116,17 +129,6 @@ header{
     padding: 60px 0;
 }
 
-.row{
-    margin: 0 -15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.col-6{
-    width: 50%;
-    padding: 0 15px;
-}
 
 .check{
     display: flex;
