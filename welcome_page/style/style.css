@@ -35,8 +35,8 @@ header {
 
 .button-dropdown button {
     font-size: 20px;
-    padding: 16px;
-    border: 2px solid #3b42c4;
+    padding: 14px;
+    border: 1px solid #3b42c4;
     cursor: pointer;
     color: black;
     text-transform: uppercase;
@@ -384,7 +384,7 @@ header select {
     font-size: 20px;
     padding: 16px;
     border-radius: 10px;
-    border: 2px solid #3b42c4;
+    border: 1px solid #3b42c4;
     background-color: unset;
 }
 
