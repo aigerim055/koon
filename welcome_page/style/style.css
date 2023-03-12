@@ -44,26 +44,12 @@ header {
     display: inline-block;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(.86, .01, .15, .99);
+    background: unset;
 }
 
-.button-dropdown button::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0;
-}
-
-.button-five {
-    background: rgb(255, 255, 255);
-    color: black;
-}
-
-.button-five:hover {
-    color: white;
+.button-dropdown button:hover {
     background-color: #3b42c4;
+    color: #fff;
     transition: 0.3s;
 }
 
@@ -190,7 +176,7 @@ header {
 }
 
 .about-us--info {
-    padding: 158px 0 0;
+    /* padding: 158px 0 0; */
     word-spacing: 5px;
     display: flex;
     flex-direction: column;
@@ -403,7 +389,6 @@ footer {
 
 .footer-wrap a {
     color: white;
-    font-family: rubik;
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
@@ -435,4 +420,40 @@ footer {
 
 option svg {
     background-color: #000000;
+}
+
+.about-us .row {
+    align-items: center;
+}
+
+.last-section {
+    margin: 40px 0 100px;
+    height: 920px;
+    width: 100%;
+    background: url(../assets/join.png) no-repeat center center/contain;
+}
+
+.aigerim-spacing {
+    display: flex;
+    width: 100px;
+    height: 100%;
+}
+
+.btn-spacing {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: end;
+    padding: 0 0 80px;
+}
+
+.last-section .button-dropdown button {
+    border: 1px solid #3b42c4;
+    background-color: #3b42c4;
+    color: #fff;
+}
+
+.last-section .button-dropdown button:hover {
+    background-color: #ffffff;
+    color: #3b42c4;
 }
