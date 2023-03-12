@@ -11,7 +11,7 @@
     padding: 0 20px;
 }
 
-section{
+.checkmate{
     padding: 60px 0 0;
 }
 
@@ -27,7 +27,7 @@ section{
     padding: 0 15px;
 }
 
-.box{
+.check{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,19 +36,19 @@ section{
     max-width: 100%;
 }
 
-.box img{
+.check img{
     border-radius: 6px;
     width: 100%;
     object-fit: cover;
 }
 
-img:hover{
+.check:hover img{
     box-shadow: 5px -3px 14px 17px rgba(34, 60, 80, 0.2);
     transition: 0.6s;
 }
 
 .title{
-    padding: 100px 0 0;
+    padding: 158px 0 0;
     word-spacing: 5px;
     display: flex;
     flex-direction: column;
@@ -65,17 +65,17 @@ img:hover{
     font-size: 37px;
 }
 
-h2:hover{
+.check:hover h2{
     transition: 0.6s;
     color: firebrick;
 }
 
-p:hover{
+.check:hover p{
     transition: 0.6s;
     color: chocolate;
 }
 
-span:hover{
+.check:hover span{
     transition: 0.6s;
     color: rgb(233, 13, 97);
 }
