@@ -847,7 +847,7 @@ option svg {
 }
 
 .box img {
-   max-width: 280px;
+   /* max-width: 280px; */
    height: 250px;
    object-fit: cover;
    border-radius: 15px;
@@ -1012,3 +1012,28 @@ textarea.form-control {
    transition: 0.3s;
 }
 
+
+
+footer {
+   background-color: black;
+   padding: 0 20px;
+}
+
+.footer-wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px;
+}
+
+.footer-wrap a {
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.privacy {
+   display: flex;
+   gap: 60px;
+}
