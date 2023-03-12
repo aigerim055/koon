@@ -735,3 +735,285 @@ option svg {
 
 }
 
+ .box img{
+    width: 100%;
+ }
+
+.more{
+    padding: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid #243f93;
+}
+.wrap-more-btn{
+   display: flex;
+   align-items: center;
+   justify-content: end;  
+}
+
+
+.more:hover {
+    transition: 0.3s;
+    background-color: #243f93;
+    color: #fff;
+
+}
+
+.build2{
+   padding: 50px 0;
+}
+.input button{
+   background-color: transparent;
+   border: transparent;
+   margin-right: 20px;
+}
+.input button svg:hover{
+   fill: black;
+}
+.search{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.re-btn {
+   display: flex;
+}
+.search h2{
+   padding-right: 100px;
+   text-transform: uppercase;
+   font-size: 48px;
+   font-weight: 500;
+   line-height: 57px;
+}
+
+.group-text {
+   display: flex;
+   justify-content: center;
+}
+.btn-search-wraper{
+   display: flex;
+   gap: 20px;
+   padding: 40px 0 160px; 
+}
+.search-btn{
+   background-color: #fff;
+   color: #243f93;
+   border: 2px solid #243f93;
+   overflow: hidden;
+   border-radius: 30px;
+   padding: 16px;
+   text-decoration: none;
+}
+.search-btn:hover{
+   background-color: #243f93;
+   color: #fff;
+   transition: 0.05s;
+}
+.btn2{
+   background-color: #243f93;
+   color: #fff;
+   border: 1px solid #243f93;
+   overflow: hidden;
+   border-radius: 30px;
+   padding: 16px;
+}
+.btn2:hover{
+   background-color: #243f93;
+   color: #fff;
+   transition: 0.05s;
+}
+.col-3{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.build3 {
+   padding: 80px 0 160px;
+}
+
+.explore{
+   padding: 20px 15px;
+}
+
+.explore h3 {
+   font-size: 48px;
+   font-weight: 500;
+   line-height: 57px;
+}
+.explore a{
+   text-decoration: none;
+}
+.explore a:hover{
+   text-decoration: underline;
+}
+
+.box img {
+   max-width: 280px;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 15px;
+}
+.wrap-contant{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap:7px;
+}
+
+.wrap-contant h3 {
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 33px;
+}
+
+
+.btn-corner{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   background-color: #243F93;
+}
+
+.btn-corner-1{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   background-color: #C2C0C0;
+}
+
+.data{
+   color: #525252;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21px;
+}
+ @media(max-width:1024px){
+    .container{
+        max-width: 920px;
+    }
+    .col-4{
+        width: 50%;
+    }
+    .mySwiper2 {
+        
+        height:100%;
+     }
+     .box img{
+        object-fit: cover;
+        background-size: cover;
+     }
+ }
+
+.search input{
+   padding: 5px 0 5px 5px;
+   border: none;
+   width: 100%;
+   margin-left: 23px;
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 32px;
+}
+
+.input {
+   border: 1px grey solid;
+   padding-right: 5px;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 30px;
+   margin-top: 60px;
+}
+
+.search input:focus {
+   border: none;
+}
+
+.section-comment {
+   background-color: #ECF3ED;
+   padding: 60px 0;
+}
+
+.section-comment h1 {
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 57px;
+   text-transform: uppercase;
+   padding-bottom: 60px;
+}
+
+.section-comment .container{
+   max-width: 1000px;
+}
+
+
+.comments {
+   display: flex;
+   margin-bottom: 20px;
+   border-radius: 15px;
+   padding: 10px 10px; 
+   gap: 15px;
+   align-items: flex-end;
+}
+
+.comment-bones p {
+   margin: 0;
+}
+
+.comment-bones {
+   border: 2px solid #3e64d9;
+   padding: 15px;
+   border-radius: 20px 20px 20px 0px;
+   position: relative;
+   background-color: #3e64d9;
+   color: #fff;
+}
+.comment-bones::before {
+   content: " ";
+   position: absolute;
+   display: block;
+   width: 20px;
+   height: 30px;
+   pointer-events: none;
+   clip-path: polygon(60% 83%, 81% 70%, 100% 47%, 100% 100%, 0 100%, 32% 92%);
+   background-color: #3e64d9;
+   left: -17px;
+   bottom: -2.5px;
+}
+
+
+.comment-img img{
+   width: 80px;
+}
+
+textarea.form-control {
+   min-height: 150px;
+   border-radius: 20px;
+}
+
+.send-select {
+   margin-top: 20px;
+   display: flex;
+   justify-content: end;
+}
+.send-select button {
+   padding: 12px 16px;
+   border: 2px solid #3e64d9;
+   border-radius: 30px;
+   color: #3b42c4;
+}
+
+.send-select button:hover{
+   background-color: #3b42c4;
+   color: #fff;
+   transition: 0.3s;
+}
+
