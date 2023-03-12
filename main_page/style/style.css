@@ -468,3 +468,49 @@ textarea.form-control {
    min-height: 150px;
 }
 
+footer{
+   background-color: black;
+   padding: 0 20px;
+}
+
+.footer-wrap{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px;
+}
+
+.footer-wrap a{
+   color: white;
+   font-family: rubik;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.privacy{
+   display: flex;
+   gap: 60px;
+}
+
+.about:hover{
+   color: aquamarine;
+   transition: 0.6s;
+}
+
+.security:hover{
+   color: aquamarine;
+   transition: 0.6s;
+}
+.terms:hover{
+   color: aquamarine;
+   transition: 0.6s;
+}
+
+.id:hover{
+   transition: 0.6s;
+}
+
+option svg {
+   background-color: #000000;
+}
