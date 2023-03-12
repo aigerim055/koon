@@ -439,11 +439,6 @@ header {
    flex-direction: column;
 }
 
-.search h2 {
-   text-align: center;
-   width: 400px;
-}
-
 .btn-search-wraper {
    display: flex;
    gap: 10px;
@@ -529,7 +524,7 @@ header {
    margin: 0;
 }
 
-@media(max-width:1024px) {
+/* @media(max-width:1024px) {
    .container {
       max-width: 920px;
    }
@@ -547,7 +542,7 @@ header {
       object-fit: cover;
       background-size: cover;
    }
-}
+} */
 
 .search input {
    padding: 5px 0 5px 5px;
