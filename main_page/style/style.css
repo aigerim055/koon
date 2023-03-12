@@ -553,7 +553,7 @@ header {
 .input {
    border: 1px grey solid;
    padding-right: 5px;
-   width: 50%;
+   width: 100%;
    display: flex;
    justify-content: space-between;
 
@@ -912,7 +912,7 @@ option svg {
 .search input{
    padding: 5px 0 5px 5px;
    border: none;
-   width: 100%;
+   max-width: 100%;
    margin-left: 23px;
    font-size: 28px;
    font-weight: 400;
@@ -926,6 +926,7 @@ option svg {
    justify-content: space-between;
    border-radius: 30px;
    margin-top: 60px;
+   max-width: 100%;
 }
 
 .search input:focus {
